@@ -6,3 +6,12 @@
     transform: translate(0);
   }
 }
+
+@keyframes bg__line {
+  0% {
+    transform: translate(1000px, -1000px);
+  }
+  100% {
+    transform: translate(-8000px, 8000px);
+  }
+}

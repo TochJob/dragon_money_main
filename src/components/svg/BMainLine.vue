@@ -27,10 +27,3 @@
   </svg>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped>
-svg {
-  position: absolute;
-}
-</style>
