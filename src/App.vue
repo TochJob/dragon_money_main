@@ -130,7 +130,8 @@ const stepsMob = [
 @import '@/assets/scss/base.scss';
 @import '@/assets/scss/animation.scss';
 #app {
-  background: radial-gradient(124.98% 61.75% at 36.24% 50%, #202331 33.85%, #181a25 100%);
+  // background: radial-gradient(124.98% 61.75% at 36.24% 50%, #202331 33.85%, #181a25 100%);
+  background-image: url('@/assets/img/background.png');
   overflow: hidden;
   position: relative;
 }
@@ -328,8 +329,8 @@ footer {
   footer {
     padding: 0 calc(35vw - 255px);
   }
-  .main{
-    &__logo{
+  .main {
+    &__logo {
       width: 380px;
       bottom: 65px;
     }
